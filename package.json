@@ -1,0 +1,33 @@
+{
+  "name": "tickertape",
+  "version": "0.0.0",
+  "description": "Generate a ticker tape for any number of simulated stocks",
+  "main": "index.js",
+  "scripts": {
+    "preversion": "npm test",
+    "test": "mocha"
+  },
+  "keywords": [
+    "tick",
+    "uptick",
+    "downtick",
+    "ticker",
+    "tape",
+    "stock",
+    "market",
+    "quote"
+  ],
+  "author": "Greg Walden <hi@gsw.nyc>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gswalden/tickertape.git"
+  }
+}
