@@ -3,14 +3,14 @@
 
 ### Install
 ```sh
-npm install --save tickertape
+npm install --save ticker-tape
 ```
 
 ---
 
 ### Use
 ```js
-var TickerTape = require('tickertape')
+var TickerTape = require('ticker-tape')
   , tape = new TickerTape()
   ;
 

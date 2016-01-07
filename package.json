@@ -1,5 +1,5 @@
 {
-  "name": "tickertape",
+  "name": "ticker-tape",
   "version": "0.0.0",
   "description": "Generate a ticker tape for any number of simulated stocks",
   "main": "index.js",
