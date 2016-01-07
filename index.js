@@ -34,6 +34,11 @@ class TickerTape extends EventEmitter {
       this.emit('tick', _.clone(stock));
     });
   }
+
+  stop() {
+    clearInterval(this.interval);
+    this.emit('end', this.stocks);
+  }
 }
 
 function generateSymbol() {

@@ -32,4 +32,13 @@ describe('TickerTape tests', function() {
       done();
     });
   });
+
+  it('stop() ends the tape', function(done) {
+    const ticker = new TickerTape();
+    ticker.on('end', stocks => {
+      stocks.should.be.an('array').with.length(1);
+      done();
+    });
+    ticker.stop();
+  });
 });
